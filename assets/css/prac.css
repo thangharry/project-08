@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Manrope", sans-serif;
+}
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title {
+    font-family: "Roboto Slab", serif;
+}
+.desc {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+}
+:root {
+    --btn-color: #fd6038;
+    --dark: #0e1412;
+    --green: #017848;
+    --yellow: #fed464;
+    --yellow-light: #f8ebc9;
+}
+.title {
+    color: var(--dark, #0e1412);
+    font-size: 1.8rem;
+    font-family: Roboto Slab;
+}
+.header,
+.media-item__name {
+    color: var(--dark, #0e1412);
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.desc {
+    color: var(--grey, #586863);
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+/* ---------------------- */
+.nav-item__prac,
+.prac__item > a {
+    color: var(--dark);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.nav-item__prac:hover {
+    color: var(--btn-color);
+    text-shadow: 1px 0 0 var(--btn-color);
+}
+.nav-item:nth-of-type(3) {
+    position: relative;
+}
+.prac__item {
+    display: none;
+    position: absolute;
+
+    /* align-items: center; */
+    top: 30px;
+    left: -12px;
+    width: 185px;
+    height: 252px;
+    background-color: #fff;
+}
+.prac__item > a {
+    margin-right: auto;
+    display: block;
+    color: #586863;
+    margin-left: 12px;
+    margin-right: 25px;
+    padding: 5px;
+}
+.prac__item > a + a {
+    margin-top: 15px;
+}
+
+.prac__item > a:nth-of-type(1) {
+    margin-top: 10px;
+}
+.prac__item > a:hover {
+    background-color: #586863;
+    color: var(--btn-color);
+}
+#checkbox:checked ~ .checkbox > .prac__item {
+    display: block;
+}
+/* --------------------------- */
+
+/* hero */
+.hero-body__header {
+    width: 600px;
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+.hero-body__desc {
+    width: 670px;
+    color: var(--dark);
+}
+
+/* service */
+.service {
+    background-color: #fff;
+}
+
+/* cta */
+.cta-title,
+.cta-body__desc {
+    color: #fff;
+}

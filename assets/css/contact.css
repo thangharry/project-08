@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Manrope", sans-serif;
+}
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title {
+    font-family: "Roboto Slab", serif;
+}
+.desc {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+}
+:root {
+    --btn-color: #fd6038;
+    --dark: #0e1412;
+    --green: #017848;
+    --yellow: #fed464;
+    --yellow-light: #f8ebc9;
+}
+.title {
+    color: #586863;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+h2 {
+    color: var(--dark);
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+.desc {
+    color: #586863;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+/* submit */
+.container-g {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.9fr 1.1fr 2.5fr;
+    grid-auto-columns: 1fr;
+    gap: 24px 30px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "i1 i1 i2 i2"
+        "i3 i3 i4 i4"
+        "i5 i5 i5 i5";
+}
+
+.i1 {
+    grid-area: i1;
+}
+
+.i2 {
+    grid-area: i2;
+}
+
+.i3 {
+    grid-area: i3;
+}
+
+.i4 {
+    grid-area: i4;
+}
+
+.i5 {
+    grid-area: i5;
+}
+.heading {
+    margin-bottom: 70px;
+}
+
+.heading-body__title {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 12px;
+}
+.heading-body__header {
+    width: 670px;
+    margin-bottom: 20px;
+}
+.heading-body__desc {
+    width: 530px;
+}
+
+/* submit */
+.submit {
+    margin-bottom: 150px;
+}
+input {
+    border: none;
+    display: block;
+    width: 570px;
+    height: 60px;
+    background: #f2f2f2;
+    padding-left: 30px;
+    font-size: 1.4rem;
+}
+input::placeholder,
+textarea::placeholder {
+    font-family: Manrope;
+    color: #586863;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+textarea {
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 1.7rem;
+}
+.submit-btn {
+    width: 144px;
+    height: 62px;
+    border-radius: 31px;
+    background: var(--dark);
+}
+.submit-btn > a {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+}

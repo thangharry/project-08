@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./assets/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+        <!-- reset.css -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+
+        <!-- styles.css -->
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <!-- home.css -->
+        <link rel="stylesheet" href="./assets/css/home.css" />
+        <!-- home-unbelievable -->
+        <link rel="stylesheet" href="./assets/css/home-unbelievable.css" />
+        <!-- home-trusted -->
+        <link rel="stylesheet" href="./assets/css/home-trusted.css" />
+        <!-- googlefont -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Roboto+Slab:wght@400;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <!-- font-icon -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <title>Justice</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-body">
+                    <div class="header-body__favicon">
+                        <a href="./index.html">
+                            <img src="./assets/img/icon-p8.svg" alt="Justice" />
+                            <img
+                                src="./assets/img/Justice Law Firm.png"
+                                alt=""
+                            />
+                        </a>
+                    </div>
+                    <nav>
+                        <ul class="nav-list" style="list-style: none">
+                            <li class="nav-item">
+                                <input type="checkbox" id="checkbox" hidden />
+
+                                <label for="checkbox" class="checkbox">
+                                    <p class="nav-item__home">Home</p>
+                                    <div class="home-item" hidden>
+                                        <a href="./home-unbelievable.html"
+                                            >lawyer firm Agency</a
+                                        >
+                                        <p>
+                                            Unbelievable Solutions For All Legal
+                                            Cases
+                                        </p>
+                                        <a href="./home-trusted.html"
+                                            >lawyer firm Agency</a
+                                        >
+                                        <p>
+                                            Trusted legal solutions for the real
+                                            world.
+                                        </p>
+                                    </div>
+                                </label>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./about.html" class="nav-item__link"
+                                    >About</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a href="./prac.html" class="nav-item__link"
+                                    >Practice Areas</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a href="./att.html" class="nav-item__link"
+                                    >Attorneys</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-item__link" id="t"
+                                    >Page</a
+                                >
+                                <div class="page-menu js-menu">
+                                    <ul>
+                                        <li>
+                                            <a href="./blog.html">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="./contact.html">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">FAQ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">404</a>
+                                        </li>
+                                        <li>
+                                            <a href="./coming.html"
+                                                >Coming Soon</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="phone">
+                        <span>Call : </span
+                        ><a href="tel:(000)123456789">(000)123456789</a>
+                    </div>
+                </div>
+            </div>
+            <section class="hero home-trusted-hero">
+                <div class="container">
+                    <div class="hero-body home-un-body home-trus-body">
+                        <!-- media -->
+                        <div class="home-trust-body__media">
+                            <img
+                                src="./assets/img/home-trusted-img.png"
+                                alt=""
+                            />
+                        </div>
+                        <!-- content -->
+                        <div class="hero-body__content home-un-body__content">
+                            <h1>Trusted legal solutions for the real world.</h1>
+                            <p class="desc hero-body__desc home-un-body__desc">
+                                Organize your tasks, lists and reminders in one
+                                app. it will help you a lot.
+                            </p>
+
+                            <button class="home-trust-btn">
+                                <a href="#!">Schedule constitution</a>
+                            </button>
+                        </div>
+
+                        <div class="quantity">
+                            <div class="quantity-item">
+                                <h4>250+</h4>
+                                <span>Qualified Lawyers</span>
+                            </div>
+
+                            <div class="quantity-item">
+                                <h4>6154+</h4>
+                                <span>Trusted Clients</span>
+                            </div>
+
+                            <div class="quantity-item">
+                                <h4>54586+</h4>
+                                <span>Successful Cases</span>
+                            </div>
+
+                            <div class="quantity-item">
+                                <h4>1985+</h4>
+                                <span>Honors& Awards</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <main>
+            <!--company  -->
+            <section class="company">
+                <div class="container">
+                    <div class="company-body">
+                        <div class="container-grid">
+                            <div class="i1">
+                                <span class="i1-item">COMPANY OVERVIEW</span>
+                                <h2 class="i1-item-header">
+                                    Learn about the law
+                                </h2>
+                                <p class="i1-item-desc">
+                                    Are you facing a legal issue, or just
+                                    looking for more information about a
+                                    specific legal topic? FindLaw's Learn About
+                                    the Law section is the perfect starting
+                                    point
+                                </p>
+                                <a href="#!">learn more</a>
+                            </div>
+                            <div class="i2">
+                                <h3 class="company-body-header">
+                                    Accidents and Injuries
+                                </h3>
+                                <p class="company-body-desc">
+                                    Learn About the Law features informational
+                                    articles about a wide variety.
+                                </p>
+                            </div>
+                            <div class="i3">
+                                <h3 class="company-body-header">
+                                    Criminal Law
+                                </h3>
+                                <p class="company-body-desc">
+                                    Learn About the Law features informational
+                                    articles about a wide variety.
+                                </p>
+                            </div>
+                            <div class="i4">
+                                <h3 class="company-body-header">
+                                    Employment Law
+                                </h3>
+                                <p class="company-body-desc">
+                                    Learn About the Law features informational
+                                    articles about a wide variety.
+                                </p>
+                            </div>
+                            <div class="i5">
+                                <h3 class="company-body-header">Family Law</h3>
+                                <p class="company-body-desc">
+                                    Learn About the Law features informational
+                                    articles about a wide variety.
+                                </p>
+                            </div>
+                            <div class="i6">
+                                <img
+                                    src="./assets/img/home-company.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="i7">
+                                <span
+                                    ><i
+                                        class="fa-sharp fa-solid fa-quote-left"
+                                    ></i
+                                ></span>
+                                <p class="company-body-desc">
+                                    Are you facing a legal issue, or just
+                                    looking for more information about a
+                                    specific legal topic? FindLaw's Learn About
+                                    the Law section is the perfect starting
+                                    point.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- expert-->
+            <section class="expert">
+                <div class="container">
+                    <div class="expert-body">
+                        <!-- content -->
+                        <div class="expert-body-content">
+                            <span class="title">HIRE EXPERT</span>
+                            <h2 class="expert-body-header">
+                                If you are in trouble our lawyers can guide you
+                            </h2>
+                            <p class="expert-body-desc desc">
+                                We help startup emploes get the expertise,
+                                planning and cash to olt is a longs established
+                                fact that to a reader will be distracted by the
+                                readable content.
+                            </p>
+                            <a href="#!">learn more</a>
+                        </div>
+                        <!-- media -->
+
+                        <figure class="expert-body-media">
+                            <div class="expert-body-decor"></div>
+                            <img src="./assets/img/expert-img.png" alt="" />
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            <!-- help intro -->
+            <section class="help">
+                <div class="container">
+                    <div class="help-body">
+                        <!-- media -->
+
+                        <figure class="help-body-media">
+                            <div class="help-body-decor"></div>
+                            <img src="./assets/img/help-img.png" alt="" />
+                        </figure>
+
+                        <!-- content -->
+                        <div class="expert-body-content">
+                            <span class="title help-title"
+                                >COMPANY HELP INTRO</span
+                            >
+                            <h2 class="expert-body-header help-body-header">
+                                The people we help
+                            </h2>
+                            <p class="expert-body-desc desc help-body-desc">
+                                Are you facing a legal issue, or just looking
+                                for more information about a specific legal
+                                topic? When you are coping with this aggressive
+                                disease, we ease your mind by answering
+                                questions you may have about diagnosis,
+                                treatment options and other concerns providing
+                                you with patient resources
+                            </p>
+                            <a href="#!">learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- know -->
+            <section class="know">
+                <div class="container">
+                    <div class="know-body">
+                        <!-- content -->
+                        <div class="expert-body-content">
+                            <span class="title">KNOW MORE ABOUT</span>
+                            <h2 class="expert-body-header">
+                                Vote for Robert Rommel
+                            </h2>
+                            <p class="expert-body-desc desc">
+                                Questions explained agreeable preterred
+                                strangers too him her son. Set put shyness
+                                offices his females him distant. Improve has
+                                message besides shy himself cheered however how
+                                son. Quick judge other leave askfirst chief her,
+                                Indeed or remark always silent seemed narrow be.
+                                Instantly can suffering pretended neglected
+                                preferred. Rank tall boy man them over post now.
+                                Off into she bed long fat room. Recommend
+                                existence curiosity perfectly favourite get eat
+                                she why daughters. Not may too nay busy.
+                            </p>
+                            <a href="#!">learn more</a>
+                        </div>
+                        <!-- media -->
+
+                        <figure class="expert-body-media">
+                            <div class="know-body-decor"></div>
+                            <img src="./assets/img/know-img.png" alt="" />
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+            <!-- service -->
+            <section class="service">
+                <div class="container">
+                    <div class="service-body">
+                        <!-- content -->
+                        <div class="service-body-content">
+                            <span class="title service-body-content__title"
+                                >SERVICES PROVIDE</span
+                            >
+                            <div class="service-body-main">
+                                <h2 class="service-body-header">
+                                    Services We Provide for You
+                                </h2>
+                                <span class="service-body-main-decor">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- media -->
+                        <div class="service-body-media">
+                            <!-- item-01 -->
+                            <div class="service-body-media-item">
+                                <figure>
+                                    <img
+                                        src="./assets/img/service-1.jpg"
+                                        alt=""
+                                    />
+                                </figure>
+                                <h4 class="service-body-media__title">
+                                    Free information guide
+                                </h4>
+                                <p class="service-body-media__desc">
+                                    "I am very satisfied with this Law Office.
+                                    Very professional, quick responses to calls,
+                                    humble and understanding. Marty has done a
+                                    lot of work for me and helped my friends and
+                                    myself work through some sticky issues.
+                                </p>
+                            </div>
+
+                            <!-- item-02 -->
+                            <div class="service-body-media-item">
+                                <figure>
+                                    <img
+                                        src="./assets/img/service-2.jpg"
+                                        alt=""
+                                    />
+                                </figure>
+                                <h4 class="service-body-media__title">
+                                    Support groups for survivors
+                                </h4>
+                                <p class="service-body-media__desc">
+                                    "I am very satisfied with this Law Office.
+                                    Very professional, quick responses to calls,
+                                    humble and understanding. Marty has done a
+                                    lot of work for me and helped my friends and
+                                    myself work through some sticky issues.
+                                </p>
+                            </div>
+
+                            <!-- item-03 -->
+                            <div class="service-body-media-item">
+                                <figure>
+                                    <img
+                                        src="./assets/img/service-3.jpg"
+                                        alt=""
+                                    />
+                                </figure>
+                                <h4 class="service-body-media__title">
+                                    Free awareness wristbands
+                                </h4>
+                                <p class="service-body-media__desc">
+                                    "I am very satisfied with this Law Office.
+                                    Very professional, quick responses to calls,
+                                    humble and understanding. Marty has done a
+                                    lot of work for me and helped my friends and
+                                    myself work through some sticky issues.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- experience -->
+            <section class="experience">
+                <div class="container">
+                    <div class="experience-body">
+                        <span class="title experience-body-title"
+                            >OUR EXPERIENCE</span
+                        >
+                        <h2 class="experience-body-header">
+                            20 Years of Experience In Various Cases
+                        </h2>
+                        <p class="desc experience-body-desc">
+                            Asbestos.com is proud to donate to organizations
+                            that raise awareness and support ongoing research on
+                            mesothelioma, cancer
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- customer -->
+            <section class="customer">
+                <div class="container">
+                    <div class="customer-body">
+                        <div class="customer-body-content">
+                            <h2 class="customer-body-header">
+                                What our customers say
+                            </h2>
+                            <div class="customer-body-fav">
+                                <p class="customer-body-fav-desc">
+                                    Our customers use WordHero to create tons of
+                                    content daily – and are absolutely loving
+                                    it.
+                                </p>
+                                <span class="customer-body-fav-decor">
+                                    <i
+                                        class="fa-solid fa-circle-chevron-left fa-2xl"
+                                        style="color: #fd6038"
+                                    ></i>
+                                    <i
+                                        class="fa-solid fa-circle-chevron-right fa-2xl"
+                                        style="color: #fd6038"
+                                    ></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- media -->
+                        <div class="customer-body-media">
+                            <div class="customer-body-media-item">
+                                <figure>
+                                    <img src="./assets/img/team-1.png" alt="" />
+                                </figure>
+                                <div class="customer-body-media-info">
+                                    <h4 class="info-name">Peter Moor</h4>
+                                    <p class="info-job">Copywriter on Upwork</p>
+                                    <span class="info-decor">
+                                        <i class="fa-solid fa-star fa-xl"></i>
+                                        <i class="fa-solid fa-star fa-xl"></i>
+                                        <i class="fa-solid fa-star fa-xl"></i>
+                                        <i class="fa-solid fa-star fa-xl"></i>
+                                        <i class="fa-solid fa-star fa-xl"></i>
+                                    </span>
+                                    <p class="info-desc">
+                                        “I absolutely hate writing. Imaginary.ai
+                                        does an excellent job for me in writing
+                                        a lot of stuff I hate to write.”
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="customer-body-media-item">
+                                <figure>
+                                    <img src="./assets/img/team-2.png" alt="" />
+                                </figure>
+                                <div class="customer-body-media-info">
+                                    <h4 class="info-name">Peter Moor</h4>
+                                    <p class="info-job">Copywriter on Upwork</p>
+                                    <span class="info-decor">
+                                        <i class="fa-solid fa-star fa-xl"></i>
+                                        <i class="fa-solid fa-star fa-xl"></i>
+                                        <i class="fa-solid fa-star fa-xl"></i>
+                                        <i class="fa-solid fa-star fa-xl"></i>
+                                        <i class="fa-solid fa-star fa-xl"></i>
+                                    </span>
+                                    <p class="info-desc">
+                                        “I absolutely hate writing. Imaginary.ai
+                                        does an excellent job for me in writing
+                                        a lot of stuff I hate to write.”
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- news -->
+            <section class="new">
+                <div class="container">
+                    <div class="new-body">
+                        <h2 class="new-body-header">Our Latest News</h2>
+                        <p class="new-body-desc">
+                            Increase productivity with a simple All-In-One App,
+                            App for managing your personal budgets.
+                        </p>
+
+                        <!-- media -->
+                        <div class="new-body-media">
+                            <!-- item-1 -->
+                            <div class="new-body-media-item">
+                                <figure>
+                                    <img
+                                        src="./assets/img/img-blog-04-new.jpg"
+                                        alt=""
+                                    />
+                                </figure>
+                                <div class="new-body-media-info">
+                                    <p class="new-info-day">
+                                        August 7,2021 *admin
+                                    </p>
+                                    <h4 class="new-info-header">
+                                        Smart App for New Devices Made by
+                                        Smartly
+                                    </h4>
+                                    <p class="new-info-desc">
+                                        Increase productivity with a simple App,
+                                        App for managing your personal budgets.
+                                    </p>
+                                    <a href="#!">read more</a>
+                                </div>
+                            </div>
+
+                            <!-- item-2 -->
+                            <div class="new-body-media-item">
+                                <figure>
+                                    <img
+                                        src="./assets/img/img-blog-05-new.jpg"
+                                        alt=""
+                                    />
+                                </figure>
+                                <div class="new-body-media-info">
+                                    <p class="new-info-day">
+                                        August 7,2021 *admin
+                                    </p>
+                                    <h4 class="new-info-header">
+                                        Smart App for New Devices Made by
+                                        Smartly
+                                    </h4>
+                                    <p class="new-info-desc">
+                                        Increase productivity with a simple App,
+                                        App for managing your personal budgets.
+                                    </p>
+                                    <a href="#!">read more</a>
+                                </div>
+                            </div>
+
+                            <!-- item-3 -->
+                            <div class="new-body-media-item">
+                                <figure>
+                                    <img
+                                        src="./assets/img/img-blog-06-new.jpg"
+                                        alt=""
+                                    />
+                                </figure>
+                                <div class="new-body-media-info">
+                                    <p class="new-info-day">
+                                        August 7,2021 *admin
+                                    </p>
+                                    <h4 class="new-info-header">
+                                        Smart App for New Devices Made by
+                                        Smartly
+                                    </h4>
+                                    <p class="new-info-desc">
+                                        Increase productivity with a simple App,
+                                        App for managing your personal budgets.
+                                    </p>
+                                    <a href="#!">read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- sub-->
+            <section class="sub home-un-sub home-tr-sub">
+                <div class="container">
+                    <div class="sub-body home-un-sub-body home-tr-sub-body">
+                        <h2
+                            class="sub-body__header home-un-sub-body__header home-tr-sub-body__header"
+                        >
+                            Subscribe to Our Newsletter for the daily Updates
+                        </h2>
+
+                        <form action="">
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="Enter Your email address"
+                            />
+                            <label class="email-c home-tr-email-c" for="email"
+                                ><span>Subscribe</span>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="footer-body">
+                        <!-- column-01 -->
+                        <div class="footer-body__item">
+                            <span class="footer-body__title">Justice</span>
+                            <ul style="list-style: none">
+                                <li>
+                                    <a href="#!">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Terms & Conditions</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Cookie Preferences</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- column-02 -->
+                        <div class="footer-body__item">
+                            <span class="footer-body__title">Pages</span>
+                            <ul style="list-style: none">
+                                <li>
+                                    <a href="#!">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#!">About</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Practice Areas</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Attorneys</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- column-03 -->
+                        <div class="footer-body__item">
+                            <span class="footer-body__title">Justice</span>
+                            <p class="address">
+                                50 Harrison Street, PH Suite 445 Hoboken, NJ
+                                07030
+                            </p>
+                            <p class="phone">(000) 123-4567</p>
+                            <p class="email">yourlawfirm22@gmail.com</p>
+                        </div>
+
+                        <!-- column-04 -->
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.6698993851223!2d106.72420817473899!3d10.836554089315904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527d42972010f%3A0x141ea8549e47b6a0!2zNTkgxJAuIFPDtCA0OCwgSGnhu4dwIELDrG5oIENow6FuaCwgVGjhu6cgxJDhu6ljLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1686995777785!5m2!1svi!2s"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                    <div class="social">
+                        <img src="./assets/img/f-logo-p8.png" alt="" />
+                        <span class="copyright"
+                            >Copyright © 2022 UI HUT All Rights Reserved
+                        </span>
+                        <div class="social-media">
+                            <span><i class="fa-brands fa-facebook-f"></i></span>
+                            <span
+                                ><i class="fa-brands fa-linkedin-in"></i
+                            ></span>
+                            <span><i class="fa-brands fa-instagram"></i></span>
+                            <span><i class="fa-brands fa-twitter"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            let link = document.querySelector("#t");
+            let js_menu = document.querySelector(".js-menu");
+            link.addEventListener("click", () => {
+                link.nextElementSibling.classList.toggle("js-menu");
+                // alert("hi");
+            });
+        </script>
+    </body>
+</html>

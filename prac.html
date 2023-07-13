@@ -441,6 +441,12 @@
             links.addEventListener("click", () => {
                 links.nextElementSibling.classList.toggle("js-menu");
             });
+            let menu = document.querySelector(".mobile-icon");
+            menu.addEventListener("click", () => {
+                menu.parentElement.nextElementSibling.classList.toggle(
+                    "mobile-header-body"
+                );
+            });
         </script>
     </body>
 </html>

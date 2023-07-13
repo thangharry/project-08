@@ -157,7 +157,7 @@
                                 >
                             </li>
                             <li class="nav-item">
-                                <a href="#!" class="nav-item__link" id="t"
+                                <a href="#!" class="nav-item__link z" id="t"
                                     >Page</a
                                 >
                                 <div class="page-menu js-menu">
@@ -534,11 +534,10 @@
             </div>
         </footer>
         <script>
-            let link = document.querySelector("#t");
+            let link = document.querySelector(".z");
             let js_menu = document.querySelector(".js-menu");
             link.addEventListener("click", () => {
                 link.nextElementSibling.classList.toggle("js-menu");
-                // alert("hi");
             });
         </script>
     </body>

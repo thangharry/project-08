@@ -85,7 +85,7 @@
         <!-- styles.css -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
         <!-- js -->
-        <script src="./js/app.js"></script>
+        <!-- <script src="./js/app.js"></script> -->
         <!-- responsive.css -->
         <link rel="stylesheet" href="./assets/css/responsive.css" />
         <!-- googlefont -->
@@ -213,7 +213,7 @@
                                 >
                             </li>
                             <li class="nav-item">
-                                <a href="#!" class="nav-item__link" id="t"
+                                <a href="#!" class="nav-item__link z" id="t"
                                     >Page</a
                                 >
                                 <div class="page-menu js-menu">
@@ -875,26 +875,29 @@
                 </div>
             </div>
         </footer>
+        <script>
+            let link = document.querySelector(".z");
+            let js_menu = document.querySelector(".js-menu");
+            link.addEventListener("click", () => {
+                link.nextElementSibling.classList.toggle("js-menu");
+            });
+            let links = document.querySelector("#t");
+            let js_menus = document.querySelector(".js-menu");
+            links.addEventListener("click", () => {
+                links.nextElementSibling.classList.toggle("js-menu");
+            });
+
+            let menu = document.querySelector(".mobile-icon");
+            menu.addEventListener("click", () => {
+                menu.parentElement.nextElementSibling.classList.toggle(
+                    "mobile-header-body"
+                );
+            });
+            let lol = document.querySelector(".service-body__media-item");
+
+            lol.addEventListener("mousemove", (e) => {
+                lol.scrollLeft = e.pageX;
+            });
+        </script>
     </body>
-
-    <script>
-        let link = document.querySelector("#t");
-        let js_menu = document.querySelector(".js-menu");
-        link.addEventListener("click", () => {
-            link.nextElementSibling.classList.toggle("js-menu");
-            console.log(js_menu);
-            // alert("hi");
-        });
-        let menu = document.querySelector(".mobile-icon");
-        menu.addEventListener("click", () => {
-            menu.parentElement.nextElementSibling.classList.toggle(
-                "mobile-header-body"
-            );
-        });
-        let lol = document.querySelector(".service-body__media-item");
-
-        lol.addEventListener("mousemove", (e) => {
-            lol.scrollLeft = e.pageX;
-        });
-    </script>
 </html>

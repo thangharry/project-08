@@ -229,8 +229,11 @@ h1 {
 .service-body__media {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 60px;
+    column-gap: 30px;
     row-gap: 30px;
+}
+.service-body__media-item {
+    position: relative;
 }
 
 .service-body__media-item > img {
@@ -241,7 +244,8 @@ h1 {
 .service-body__media-item > a {
     position: absolute;
     bottom: 20px;
-    /* left: 0; */
+    left: 50%;
+    transform: translateX(-50%);
     right: -40%;
 
     display: flex;
